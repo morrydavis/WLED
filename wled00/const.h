@@ -136,7 +136,7 @@
   #ifdef ESP8266
     #define WLED_MAX_SEGNAME_LEN 32
   #else
-    #define WLED_MAX_SEGNAME_LEN 75 //my change
+    #define WLED_MAX_SEGNAME_LEN 128 //my change
   #endif
 #else
   #if WLED_MAX_SEGNAME_LEN<32
